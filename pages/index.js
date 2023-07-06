@@ -1,3 +1,4 @@
+import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar'
 import Image from 'next/image'
 export default function Home() {
@@ -6,7 +7,8 @@ export default function Home() {
   return (
   <div>
     <Navbar navlink={navlink_}/>
-    mailChip
+    mailChip content
+    <Footer/>
   </div>
   )
 }

@@ -1,0 +1,217 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-color: #e7b75f;
+}
+.topFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 25px 0;
+}
+.topFooter >h3{
+    padding: 6px 6px;
+    border-radius: 12px;
+    color: black;
+}
+.topFooter >a{
+    padding: 6px 6px;
+    border-radius: 12px;
+    color: black;
+}
+.topFooter >a:hover{
+    background:rgb(206, 206, 70);
+}
+
+.middleFooter{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 25px 10px;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+}
+.middleFooter > div{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    row-gap: 10px;
+    width: 15%;
+}
+.middleFooter > div > h2{
+   font-size: larger;
+   margin: 6px 0;
+}
+.middleFooter > div > a{
+   color: black;
+}
+.ProductsLinks{
+    display: flex;
+    flex-direction: column;
+}
+.ProductsLinks > h2{
+
+}
+.ProductsLinks > a{
+
+}
+.ResourcesLinks{
+
+}
+.ResourcesLinks > h2{
+
+}
+.ResourcesLinks > a{
+
+}
+.CommunityLinks{
+
+}
+.CommunityLinks > h2{
+
+}
+.CommunityLinks > a{
+
+}
+
+.CompanyLinks{
+
+}
+.CompanyLinks >h2{
+
+}
+.CompanyLinks >a{
+
+}
+.HelpLinks{
+
+}
+.HelpLinks >h2{
+
+}
+.HelpLinks >a{
+
+}
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.mailchimpPresent{
+
+}
+.mailchimpPresent > img{
+
+}
+.mailchimpPresent > p{
+    margin: 12px 0;
+}
+.mailchimpPresent > button{
+    color: black;
+    background-color: #ffff;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 8px 14px;
+    font-weight: 600;
+}
+.mailchimpCourier{
+
+}
+.mailchimpCourier > img{
+
+}
+.mailchimpCourier > p {
+    margin: 12px 0;
+}
+.mailchimpCourier > button{
+    color: black;
+    background-color: #ffff;
+    border-radius: 8px;
+    border: 2px solid black;
+    padding: 8px 14px;
+    font-weight: 600;
+}
+
+.bottomFooter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 30px;
+}
+.bottomFooter > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.bottomFooter > div > a{
+    display: flex;
+}
+.bottomFooter > div > a >img{
+    /* width: 100%; */
+}
+.mobileDownloadLink{
+
+}
+.mobileDownloadLink > a{
+    width: 130px;
+}
+.mobileDownloadLink > a >img{
+    width: 100%;
+}
+.socialLink{
+
+}
+.socialLink > a{
+
+}
+.socialLink > a >img{
+
+}
+.trust{
+
+}
+.trust >a {
+
+}
+.trust >a >img {
+
+}
+.aboutUs{
+    display: flex;
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    width: 25%;
+}
+.dropDown{
+
+}
+.dropDown > select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    outline: none;
+}
+.dropDown > select  > option{
+}
+.companyDesc{
+
+}
+.companyDesc > p{
+
+}
+.someMoreLink{
+
+}
+.someMoreLink > a{
+    color: black;
+}
