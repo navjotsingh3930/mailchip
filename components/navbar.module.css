@@ -1,0 +1,100 @@
+.NavBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navLink{
+display: inline-block;
+width: 33.33%;
+display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.product:hover , .inspiration:hover , .pricing:hover,.resources:hover{
+color: blue;
+cursor: pointer;
+text-decoration: underline;
+}
+.product:hover{
+    color:blue;
+ 
+}
+.resources:hover{
+ 
+}
+.inspiration:hover{
+
+}
+.pricing:hover{
+
+}
+.navLink{
+
+}
+.mailchimplogo{
+    
+}
+.navLink{
+
+}
+.login , .startFreeTrial{
+    border: 8px;
+    border-style: solid;
+    border-color: #912828;
+    border: 2px;
+    border-style: solid;
+    border-color: black;
+    padding: 12px 18px;
+    border-radius: 17px;
+}
+.login:hover , .startFreeTrial:hover{
+    border: 3px solid black;
+    border-top: 1px solid black;
+    cursor: pointer;
+}
+.startFreeTrial{
+    /* border: 2px;
+ border-style: solid;
+ border-color: black;
+  */
+
+}
+/* container styling */
+.NavBar{
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    font-size: larger;
+    text-align: center;
+}
+.subContainer > .content{
+
+}
+
+.startFreeBtnContainer{
+    display: flex;
+}
+.startFreeBtnContainer > button{
+    border-radius: 15px;
+    padding: 15px;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.startFreeBtnContainer > button:hover{
+    border: 3px solid black;
+    border-top: 2px solid black;
+    cursor: pointer;
+}
