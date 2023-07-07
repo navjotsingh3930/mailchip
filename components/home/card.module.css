@@ -1,0 +1,67 @@
+.card{
+    display:flex;
+    flex-direction: column;
+    width: 25%;
+}
+.cardTopContainer{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 400px;
+    justify-content: center;
+}
+.cardHeading{
+    font-size: larger;
+    font-family: cursive;
+    font-weight: 700;
+}
+.cardBottomContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 18px 0;
+}
+.cardBottomContainer > button{
+    width: fit-content;
+    /* display: flex; */
+    padding: 10px 20px;
+    border-radius: 11px;
+    border: 1px solid black;
+    background: transparent;
+}
+.cardDescription{
+    font-size: larger;
+    text-align: center;
+    padding: 0 8px;
+    font-style: italic;
+}
+.bg_automation{
+    background-image: url('/images/Desktop_Feature_Cards_1_Automations.webp');
+
+}
+.bg_analytics{
+    background-image: url('/images/Desktop_Feature_Cards_2_Analytics.webp');
+
+}
+.bg_segmentation{
+    background-image: url('/images/Desktop_Feature_Cards_3_Segmentation.webp');
+
+}
+.bg_integration{
+    background-image: url('/images/Desktop_Feature_Cards_4_Integrations.webp');
+
+}
+.bg_brown_600{
+    background-color: #d99536;
+}
+.bg_brown_400{
+    background-color: #e7b75f;
+}
+.bg_brown_200{
+    background-color: #fdf8ea;
+}
+.bg_brown_100{
+    background-color:#ffffff ;
+}

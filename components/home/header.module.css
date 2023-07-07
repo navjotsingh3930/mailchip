@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.subContainer{
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    font-size: larger;
+    text-align: center;
+}
+.subContainer > .content{
+
+}
+
+.startFreeBtnContainer{
+    display: flex;
+}
+.startFreeBtnContainer > button{
+    border-radius: 15px;
+    padding: 15px;
+    padding: 10px 15px;
+    outline: none;
+}
+
+.startFreeBtnContainer > button:hover{
+    border: 3px solid black;
+    border-top: 2px solid black;
+    cursor: pointer;
+}
