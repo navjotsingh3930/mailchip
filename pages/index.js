@@ -1,14 +1,16 @@
 import Footer from '@/components/Footer';
 import Navbar from '@/components/Navbar'
-import CardContainer from '@/components/home/CardContainer';
-import Header from '@/components/home/Header';
+import CardContainer from '@/components/CardContainer/CardContainer';
+import Header from '@/components/Header/Header';
 import Image from 'next/image'
+import MarketingCardContainer from '@/components/CardContainer/MarketingCardContainer';
 export default function Home() {
 
   return (
   <div>
-     <Header/>
-     <CardContainer/>
+    <Header/>
+    <CardContainer/>
+    <MarketingCardContainer/>
   </div>
   )
 }

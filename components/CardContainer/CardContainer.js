@@ -3,7 +3,7 @@ import styles from './cardContainer.module.css';
 import Card from './Card';
 const CardContainer = () => {
     const cards = [
-        {  
+        {
             img:"/images/Desktop_Feature_Cards_1_Automations.webp",
             bg_color:"#d99536",
             cardHeading:"convert with Automations",
