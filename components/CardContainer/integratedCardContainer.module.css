@@ -1,0 +1,15 @@
+ .__multiCardContainer{
+    display: flex;
+    flex-direction: column;
+ }
+ .cardHeading{
+    font-size: xx-large;
+    padding: 16px 12px;
+    font-weight: 600;
+    font-family: ui-monospace;
+}
+.cardBody{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

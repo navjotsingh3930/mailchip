@@ -36,7 +36,7 @@ const MarketingCardContainer = () => {
             ImgPosition={content.imgPosition}
             key={index}
           />)
-      }) 
+      })
       }
     </div>
   );
