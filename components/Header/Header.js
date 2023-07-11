@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './header.module.css'
 const Header = () => {
   return (
+    <>
     <div className={styles.container}>
     <div className={styles.subContainer}>
       <p className={styles.content} id="email">Turn Emails into Revenue</p>
@@ -13,9 +14,10 @@ const Header = () => {
       </p>
     </div>
     <div className={styles.startFreeBtnContainer}>
-      <button>start Free Trial</button>
+      <button >start Free Trial</button>
     </div>
   </div>
+    </>
   )
 }
 
