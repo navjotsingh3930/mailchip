@@ -24,6 +24,7 @@
     right: 20px;
     font-size: 33px;
     font-weight: bold;
+    z-index: 99;
   }
   .imgContainer{
     display: flex;

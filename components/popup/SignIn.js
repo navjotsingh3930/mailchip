@@ -5,11 +5,11 @@ import {FaFacebookSquare ,FaUserInjured , FaTwitterSquare} from 'react-icons/fa'
 import {FcGoogle} from 'react-icons/fc';
 import {MdSecurity} from 'react-icons/md';
 const SignIn = (props) => {
-  let {showPopup} = props
+  let {showPopup , handlePopup} = props
   return (
     <div className={styles.Container + " " + styles.form_popup} id="togglePopup" style={{display:showPopup? "flex":"none"}} >
       <div className={styles.formContainer}>
-       <span > <RxCross1/> </span>
+       <span onClick={()=>handlePopup(showPopup)} > <RxCross1/> </span>
         <div className={styles.imgContainer}>
           <img
             src="/images/signinImage-removebg-preview.png"

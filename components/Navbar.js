@@ -9,8 +9,8 @@ const Navbar = (props) => {
 //   }
 //   const notify = () => toast("Wow so easy!");
 const [showPopup, setShowPopup] = useState(false)
-const handlePopup=()=>{
-
+const handlePopup=(showPopup)=>{
+    showPopup?setShowPopup(false):setShowPopup(true)
 }
 return (
     <>
@@ -34,7 +34,7 @@ return (
         />
     </span>
     <span className={styles.navLink}>
-        <span className={styles.login} id='startFreeTrialBtn' onClick={()=>setShowPopup(true)} >login</span>
+        <span className={styles.login} id='startFreeTrialBtn' onClick={()=>handlePopup(showPopup)} >login</span>
         <span className={styles.startFreeTrial} >start Free Trial</span>
     </span>
     </div>
