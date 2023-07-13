@@ -5,17 +5,20 @@ import {FaFacebookSquare ,FaUserInjured , FaTwitterSquare} from 'react-icons/fa'
 import {FcGoogle} from 'react-icons/fc';
 import {MdSecurity} from 'react-icons/md';
 const SignIn = (props) => {
-  let {showPopup , handlePopup} = props
+  // if(typeof(document) != "undefined"){
+  //   document.getElementById("togglePopup").addEventListener("click",()=>console.log("hii"));
+  // }
+  const {toggleSignIn , handlePopup} = props;
   return (
-    <div className={styles.Container + " " + styles.form_popup} id="togglePopup" style={{display:showPopup? "flex":"none"}} >
+    <div className={styles.Container + " " + styles.form_popup} style={{display:toggleSignIn? "flex":"none"}}>
       <div className={styles.formContainer}>
-       <span onClick={()=>handlePopup(showPopup)} > <RxCross1/> </span>
+       <span onClick={()=>handlePopup(toggleSignIn)} > <RxCross1/> </span>
         <div className={styles.imgContainer}>
           <img
             src="/images/signinImage-removebg-preview.png"
             alt="signIn image"
           />
-          <a className={styles.createAccount} href="/">Create an account</a>
+          {/* <a className={styles.createAccount} href="/">Create an account</a> */}
         </div>
         <div className={styles.form}>
           <h2 className={styles.heading}>Log In</h2>
@@ -45,7 +48,7 @@ const SignIn = (props) => {
                 name="rememberMe"
                 value="rememberMe"
               />
-              <label for="html">Remember Me</label>
+              <label htmlFor="html">Remember Me</label>
             </div>
             <button className={styles.submit}>LogIn</button>
           </form>

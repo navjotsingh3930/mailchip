@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './footer.module.css'
+import Link from 'next/link'
 const Footer = () => {
     const footerContent={
         "Related Links":{
@@ -20,7 +21,7 @@ const Footer = () => {
         heding:"Related Links :",
         content:[
             {
-                link:"",data:"Why Mailchimp?"
+                link:"/why_mailchip",data:"Why Mailchimp?"
             },
             {
                 link:"",data:"Product Updates"
@@ -131,7 +132,7 @@ return (
     {
         footerContent['Related Links'].content.map((content,index)=>{
             return(
-                <a href={content.link} key={index} >{content.data}</a>
+                <Link href={content.link} key={index}>{content.data}</Link>
             )
         })
     }
@@ -142,7 +143,7 @@ return (
         {
             footerContent.Products.content.map((content, index)=>{
                 return (
-                    <a href={content.link} key={index}>{content.data}</a>
+                    <Link href={content.link} key={index}>{content.data}</Link>
                 )
             })
         }
@@ -152,7 +153,7 @@ return (
         {
             footerContent.Resources.content.map((content, index)=>{
                 return (
-                    <a href={content.link} key={index}>{content.data}</a>
+                    <Link href={content.link} key={index}>{content.data}</Link>
                 )
             })
         }
@@ -162,7 +163,7 @@ return (
         {
             footerContent.Community.content.map((content, index)=>{
                 return (
-                    <a href={content.link} key={index}>{content.data}</a>
+                    <Link href={content.link} key={index}>{content.data}</Link>
                 )
             })
         }
@@ -172,7 +173,7 @@ return (
         {
             footerContent.Company.content.map((content, index)=>{
                 return (
-                    <a href={content.link} key={index}>{content.data}</a>
+                    <Link href={content.link} key={index}>{content.data}</Link>
                 )
             })
         }
@@ -182,7 +183,7 @@ return (
         {
             footerContent.Help.content.map((content, index)=>{
                 return (
-                    <a href={content.link} key={index}>{content.data}</a>
+                    <Link href={content.link} key={index}>{content.data}</Link>
                 )
             })
         }
@@ -202,37 +203,37 @@ return (
     </div>
     <div className={styles.bottomFooter}>
       <div className={styles.mobileDownloadLink}>
-        <a href="">
+        <Link href="">
           <img src="https://eep.io/images/yzco4xsimv0y/1u3hha7FE0Q402e2qsMu6a/5e403548149c1618b64034284f692ff1/icon-ios.svg?w=320&q=70" alt="navjot is hero"/>
-        </a>
-        <a href="">
+        </Link>
+        <Link href="">
           <img src="https://eep.io/images/yzco4xsimv0y/64EpnI4RsQI66c2y2O60G2/4c34d7bc4dd7a4362c7e19a06c109e21/icon-android.svg?w=320&q=70" alt="navjot is hero"/>
-        </a>
+        </Link>
       </div>
       <div className={styles.socialLink}>
-        <a href="/" className={styles.facebookIcon}>
+        <Link href="/" className={styles.facebookIcon}>
           <img src="https://eep.io/images/yzco4xsimv0y/5daYAeMRSgIUUiSquGwsgI/1904e3f818575ec9625fa15dab193243/icon-facebook.svg?w=320&q=70" alt="facebook"/>
-        </a>
-        <a href="/" className={styles.twitterIcon}>
+        </Link>
+        <Link href="/" className={styles.twitterIcon}>
           <img src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?w=320&q=70" alt="twitter"/>
-        </a>
-        <a href="/" className={styles.instagramIcon}>
+        </Link>
+        <Link href="/" className={styles.instagramIcon}>
           <img src="https://eep.io/images/yzco4xsimv0y/RlNw7Xkw8uKYAUoYU4aQw/ff3eada8736da9e63fbd9f929c6a677c/icon-instagram.svg?w=320&q=70" alt="instagram"/>
-        </a>
-        <a href="/" className={styles.linkedInIcon}>
+        </Link>
+        <Link href="/" className={styles.linkedInIcon}>
           <img src="https://eep.io/images/yzco4xsimv0y/n5saFR4miW4U4ygUIQo0A/8f9c60cb133b80fda2fe9bdb825b4a5f/icon-linkedin.svg?w=320&q=70" alt="linkedIn"/>
-        </a>
-        <a href="/" className={styles.facebookIcon}>
+        </Link>
+        <Link href="/" className={styles.facebookIcon}>
           <img src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/58e3e8ec04acd60f0642f89dfbd71218/icon-youtube.svg?w=320&q=70" alt="facebook"/>
-        </a>
-        <a href="/" className={styles.pinterestIcon}>
+        </Link>
+        <Link href="/" className={styles.pinterestIcon}>
           <img src="https://eep.io/images/yzco4xsimv0y/7nawBEArBKpxRukK66OZtN/7bcc76998f783f3953b86214bfe9aa43/pinterest-logo.svg?w=320&q=70" alt="pinterest"/>
-        </a>
+        </Link>
       </div>
       <div className={styles.trust}>
-        <a href="/">
+        <Link href="/">
           <img src="https://eep.io/images/yzco4xsimv0y/5YvMZrsHz6u8Xl3dbjlPWD/fc92d9d1bba0e3b04409d37654dc6087/EN.svg?w=1600&q=70" alt="trust"/>
-        </a>
+        </Link>
       </div>
       <div className={styles.aboutUs}>
         <div className={styles.dropDown}>
@@ -249,9 +250,9 @@ return (
           <p>©2001-2023 All Rights Reserved. Mailchimp® is a registered trademark of The Rocket Science Group. Apple and the Apple logo are trademarks of Apple Inc. Mac App Store is a service mark of Apple Inc. Google Play and the Google Play logo are trademarks of Google Inc. </p>
         </div>
         <div className={styles.someMoreLink}>
-          <a href="">Privacy</a>
-          <a href="">Terms</a>
-          <a href="">Cookie Preferences</a>
+          <Link href="">Privacy</Link>
+          <Link href="">Terms</Link>
+          <Link href="">Cookie Preferences</Link>
         </div>
       </div>
     </div>
