@@ -1,0 +1,55 @@
+.mainContainer{
+    background-color: #F6F6F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 74px 0;
+    padding-bottom: 32px;
+}
+.mainContainer > div{
+    width: 60%;
+}
+.mainContainer > .OverFlowImg{
+    width: 80%;
+    position: relative;
+    bottom: 70px;
+}
+.mainContainer > .OverFlowImg > img{
+    width: 150px;
+}
+.mainContainer > .contentContainer{
+    text-align: center;
+}
+.mainContainer > .contentContainer > h2{
+    font-size: xxx-large;
+    font-weight: 500;
+    font-family: cursive;
+}
+.mainContainer > .contentContainer > p{
+    font-size: x-large;
+    font-weight: 400;
+    font-family: cursive;
+}
+.mainContainer > .cardContainer{
+    display: flex;
+    flex-direction: row;
+}
+.mainContainer > .cardContainer > .card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContainer > .cardContainer > .card > img{
+    width: 200px;
+}
+.mainContainer > .cardContainer > .card > h4{
+    font-size: x-large;
+    font-weight: 700;
+    font-family: -webkit-body;
+}
+.mainContainer > .cardContainer > .card > p{
+
+}
+.mainContainer > .cardContainer > .card > a{
+    border-bottom: 2px solid black
+}

@@ -12,7 +12,7 @@ const SignIn = (props) => {
   return (
     <div className={styles.Container + " " + styles.form_popup} style={{display:toggleSignIn? "flex":"none"}}>
       <div className={styles.formContainer}>
-       <span onClick={()=>handlePopup(toggleSignIn)} > <RxCross1/> </span>
+      <span onClick={()=>handlePopup(toggleSignIn)} > <RxCross1/> </span>
         <div className={styles.imgContainer}>
           <img
             src="/images/signinImage-removebg-preview.png"
