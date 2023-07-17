@@ -5,6 +5,7 @@ import MarketingToolDesc from "@/components/why_mailchip/MarketingToolDesc";
 import InspiredSection from "@/components/why_mailchip/InspiredSection";
 import InspiredContent from "@/components/why_mailchip/InspiredContent";
 import AdsOn from "@/components/why_mailchip/AdsOn";
+import CompanyContainer from "@/components/why_mailchip/companyContainer";
 const why_mailchip = () => {
   return (
     <div className={styles.mainContainer}>
@@ -13,6 +14,7 @@ const why_mailchip = () => {
       <InspiredSection/>
       <InspiredContent/>
       <AdsOn/>
+      <CompanyContainer/>
     </div>
   );
 };
