@@ -1,0 +1,16 @@
+.InspiredContentContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 19px;
+    margin: 70px 0;
+}
+.InspiredContentContainer >h2{
+    font-size: xxx-large;
+}
+.InspiredContentContainer  >p{
+    font-size: x-large;
+    font-family: cursive;
+    width: 68%;
+    text-align: center;
+}
