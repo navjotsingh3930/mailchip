@@ -1,0 +1,28 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    padding: 70px 0;
+}
+.container > h1{
+    font-size: xx-large;
+    font-family: cursive;
+    font-weight: 500;
+}
+.container > p{
+    font-size: larger;
+    font-family: unset;
+    font-weight: 400;
+}
+.container > .imgContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+}
+.container > .imgContainer > img {
+    width: 175px;
+}

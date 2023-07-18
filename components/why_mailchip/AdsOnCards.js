@@ -2,9 +2,9 @@ import React from "react";
 import styles from "./adsOnCards.module.css";
 import Link from "next/link";
 const AdsOnCards = (props) => {
-  const { imgUrl, heading, content, link, linkContent, key } = props;
+  const { imgUrl, heading, content, link, linkContent, } = props;
   return (
-    <div className={styles.container} key={key}>
+    <div className={styles.container} >
       <img
         src={imgUrl}
         alt="navjot is hero"
