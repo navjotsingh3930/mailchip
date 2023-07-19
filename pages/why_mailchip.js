@@ -6,6 +6,7 @@ import InspiredSection from "@/components/why_mailchip/InspiredSection";
 import InspiredContent from "@/components/why_mailchip/InspiredContent";
 import AdsOn from "@/components/why_mailchip/AdsOn";
 import CompanyContainer from "@/components/why_mailchip/companyContainer";
+import BusinessContent from "./BusinessContent";
 const why_mailchip = () => {
   return (
     <div className={styles.mainContainer}>
@@ -15,6 +16,7 @@ const why_mailchip = () => {
       <InspiredContent/>
       <AdsOn/>
       <CompanyContainer/>
+      <BusinessContent/>
     </div>
   );
 };

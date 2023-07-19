@@ -1,0 +1,20 @@
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #FFE01B;
+    gap: 14px;
+}
+.Container >h6{
+    font-size: xxx-large;
+}
+.Container  >p{
+    font-size: x-large;
+}
+.Container >:last-child{
+
+}
+.button{
+
+}
