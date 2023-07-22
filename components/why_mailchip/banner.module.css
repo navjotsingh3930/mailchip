@@ -35,3 +35,6 @@
     display: flex;
     width: 50%;
 }
+.imageContainer > img{
+    width: 100%;
+}

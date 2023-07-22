@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './banner.module.css'
+import Image from 'next/image'
 const Banner = () => {
   return (
     <div className={styles.mainContainer}>
@@ -10,7 +11,7 @@ const Banner = () => {
     <button className={styles.tryFreeTrial}>Try For Free</button>
     </div>
     <div className={styles.imageContainer}>
-      <img src='/images/why-mailchimp-anthem-bakers-hero_1520-min.webp' alt='mailChip'/>
+      <Image  src={'/images/why-mailchimp-anthem-bakers-hero_1520-min.webp'} height={500}  width={500} alt='mailChip'/>
     </div>
   </div>
   )

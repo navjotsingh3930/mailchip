@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from "./marketingCard.module.css"
+import Image from 'next/image'
 const MarketingCard = (props) => {
     const {ImgUrl,Content,Heading,ImgPosition,BtnContent} =props
     // img , content , heading , position , btnContent
@@ -17,7 +18,7 @@ return (
     </div>
     <div className={styles.ImageCard}>
       <div className={styles._Img}>
-        <img src={ImgUrl}  alt="navjot is hero"/>
+        <Image src={ImgUrl} width={500} height={500} alt='navjot is hero'/>
       </div>
     </div>
 </div>

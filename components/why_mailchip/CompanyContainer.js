@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./companyContainer.module.css";
+import Image from "next/image";
 const CompanyContainer = () => {
   const imageUrls=[
     {
@@ -27,7 +28,7 @@ const CompanyContainer = () => {
         {
           imageUrls.map((content , index)=>{
             return (
-              <img src={content.imgUrl} alt={content.alt} key={index} />
+              <Image src={content.imgUrl} alt={content.alt} width={100} height={100} key={index}/>
             )
           })
         }

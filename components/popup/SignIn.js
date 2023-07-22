@@ -4,6 +4,7 @@ import {RxCross1} from 'react-icons/rx';
 import {FaFacebookSquare ,FaUserInjured , FaTwitterSquare} from 'react-icons/fa';
 import {FcGoogle} from 'react-icons/fc';
 import {MdSecurity} from 'react-icons/md';
+import Image from 'next/image';
 const SignIn = (props) => {
   // if(typeof(document) != "undefined"){
   //   document.getElementById("togglePopup").addEventListener("click",()=>console.log("hii"));
@@ -14,10 +15,7 @@ const SignIn = (props) => {
       <div className={styles.formContainer}>
       <span onClick={()=>handlePopup(toggleSignIn)} > <RxCross1/> </span>
         <div className={styles.imgContainer}>
-          <img
-            src="/images/signinImage-removebg-preview.png"
-            alt="signIn image"
-          />
+          <Image src={"/images/signinImage-removebg-preview.png"} height={300} width={300} alt='signIn image'/>
           {/* <a className={styles.createAccount} href="/">Create an account</a> */}
         </div>
         <div className={styles.form}>

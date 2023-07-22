@@ -4,17 +4,15 @@ import {RxCross1} from 'react-icons/rx';
 import {FaFacebookSquare ,FaUserInjured , FaTwitterSquare} from 'react-icons/fa';
 import {FcGoogle} from 'react-icons/fc';
 import {MdSecurity} from 'react-icons/md';
+import Image from 'next/image';
 const SignUp = (props) => {
   const {showPopup , handlePopup} = props;
   return (
     <div className={styles.Container + " " + styles.form_popup} style={{display:showPopup? "flex":"none"}}>
       <div className={styles.formContainer}>
-       <span onClick={()=>handlePopup(showPopup)} > <RxCross1/> </span>
+      <span onClick={()=>handlePopup(showPopup)} > <RxCross1/> </span>
         <div className={styles.imgContainer}>
-          <img
-            src="/images/signinImage-removebg-preview.png"
-            alt="signIn image"
-          />
+        <Image src={"/images/signinImage-removebg-preview.png"} height={300} width={300} alt='signIn image'/>
         </div>
         <div className={styles.form}>
           <h2 className={styles.heading}>Sign Up</h2>

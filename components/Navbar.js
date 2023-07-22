@@ -3,6 +3,7 @@ import styles from "./navbar.module.css";
 import SignIn from "./popup/SignIn";
 import SignUp from "./popup/SignUp";
 import Link from "next/link";
+import Image from "next/image";
 const Navbar = () => {
   const [toggleSignIn, setToggleSignIn] = useState(false);
   const [toggleSignOut, setToggleSignOut] = useState(false);
@@ -33,11 +34,7 @@ const Navbar = () => {
           })}
         </span>
         <span className={styles.navLink}>
-          <img
-            src="/images/mailChimpLogo.png"
-            alt="mailChimpLogo"
-            className="mailchimplogo"
-          />
+          <Image src={"/images/mailChimpLogo.png"} height={250} width={250} alt="mailChimpLogo" />
         </span>
         <span className={styles.navLink}>
           <span
