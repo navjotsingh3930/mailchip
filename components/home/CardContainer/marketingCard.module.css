@@ -99,3 +99,27 @@ width: 49.5%;
  .row_reverse{
     flex-direction: row-reverse;
  }
+ /* media Query setup */
+@media screen and (min-width: 1200px) {
+}
+@media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 768px) {
+    .__CardContainer{
+        display: flex;
+        flex-direction: column-reverse  !important;
+        align-items: center;
+    }
+    .ContentCard{
+        width: 80%;
+    }
+    .ImageCard{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 480px) {
+}
+@media screen and (max-width: 320px) {
+}

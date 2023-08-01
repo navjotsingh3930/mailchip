@@ -7,7 +7,7 @@ const Header = () => {
     <div className={styles.subContainer}>
       <p className={styles.content} id="email">Turn Emails into Revenue</p>
     </div>
-    <div className={styles.subContainer}>
+    <div className={styles.subContainer + " " +styles.subContainer_}>
       <p className={styles.content}>
         Win new customers with the #1 email marketing and automations brand*
         that recommends ways to get more opens, clicks and sales.

@@ -6,6 +6,7 @@
 .cardTopContainer{
     background-position: center;
     background-size: cover;
+    height: 70%;
     width: 100%;
     background-repeat: no-repeat;
     display: flex;
@@ -18,8 +19,10 @@
     font-weight: 700;
 }
 .cardBottomContainer{
+    height: 30%;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
     padding: 18px 0;
 }
@@ -37,31 +40,30 @@
     padding: 0 8px;
     font-style: italic;
 }
-.bg_automation{
-    background-image: url('/images/Desktop_Feature_Cards_1_Automations.webp');
-
+ /* media Query setup */
+@media screen and (min-width: 1200px) {
+    
 }
-.bg_analytics{
-    background-image: url('/images/Desktop_Feature_Cards_2_Analytics.webp');
-
+@media screen and (max-width: 1200px) {
+    
 }
-.bg_segmentation{
-    background-image: url('/images/Desktop_Feature_Cards_3_Segmentation.webp');
-
+@media screen and (max-width: 1024px) {
+   
 }
-.bg_integration{
-    background-image: url('/images/Desktop_Feature_Cards_4_Integrations.webp');
-
+@media screen and (max-width: 768px) {
+    .card{
+        display:flex;
+        flex-direction: column;
+        width: 50%;
+    }
 }
-.bg_brown_600{
-    background-color: #d99536;
+@media screen and (max-width: 480px) {
+    
 }
-.bg_brown_400{
-    background-color: #e7b75f;
-}
-.bg_brown_200{
-    background-color: #fdf8ea;
-}
-.bg_brown_100{
-    background-color:#ffffff ;
+@media screen and (max-width: 320px) {
+    .card{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }

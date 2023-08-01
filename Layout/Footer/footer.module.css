@@ -3,7 +3,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
     background-color: #e7b75f;
 }
 .topFooter{
@@ -214,4 +213,62 @@
 }
 .someMoreLink > a{
     color: black;
+}
+
+/* media Query setup */
+@media screen and (min-width: 1200px) {
+    
+}
+@media screen and (max-width: 1200px) {
+    
+}
+@media screen and (max-width: 1024px) {
+    .topFooter{
+        gap: 0px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .middleFooter{
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: space-between;
+
+    }
+    .middleFooter > div{
+       width: fit-content;
+    }
+    .about{
+        flex-direction: row !important;
+    }
+    .about > div{
+       width: 50%;
+    }
+    .about > div > img{
+        width: 80%;
+    }
+    .about > div > p{
+    }
+    .about > div > button{
+    }
+}
+@media screen and (max-width: 480px) {
+    .middleFooter{
+        justify-content: flex-start;
+        gap: 6px;
+    }
+    .bottomFooter{
+        flex-wrap: wrap;
+        justify-content: initial;
+    gap: 0.5em;
+    }
+    .bottomFooter > div{
+        width: fit-content;
+    }
+}
+@media screen and (max-width: 320px) {
+    .card{
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
 }

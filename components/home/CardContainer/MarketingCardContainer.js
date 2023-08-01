@@ -26,7 +26,7 @@ const MarketingCardContainer = () => {
         },
     ]
   return (
-    <div>
+    <div className={styles.container}>
       { card.map((content, index)=>{
         return(<MarketingCard
             Heading={content.heading}

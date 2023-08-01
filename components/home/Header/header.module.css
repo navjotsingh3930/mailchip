@@ -8,7 +8,8 @@
 .subContainer{
     display: flex;
     flex-direction: row;
-    max-width: 50%;
+    justify-content: center;
+     width: 50%;
     font-size: larger;
     text-align: center;
 }
@@ -31,3 +32,29 @@
     border-top: 2px solid black;
     cursor: pointer;
 }
+ /* media Query setup */
+ @media screen and (min-width: 1200px) {
+    
+ }
+ @media screen and (max-width: 1200px) {
+     
+ }
+ @media screen and (max-width: 1024px) {
+    
+ }
+ @media screen and (max-width: 768px) {
+    .subContainer_{
+        width: 70%;
+    }
+
+ }
+ @media screen and (max-width: 480px) {
+    .subContainer_{
+        width: 90%;
+    }
+ }
+ @media screen and (max-width: 320px) {
+    .subContainer_{
+        width: 100%;
+    }
+ }

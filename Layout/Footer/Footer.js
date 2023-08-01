@@ -46,7 +46,6 @@ const Footer = () => {
             {
                 link:"",data:"GDPR Compliance"
             },
-
             {
                 link:"",data:"Security"
             },
@@ -208,35 +207,35 @@ return (
     <div className={styles.bottomFooter}>
       <div className={styles.mobileDownloadLink}>
         <Link href="">
-          {/* <img src="https://eep.io/images/yzco4xsimv0y/1u3hha7FE0Q402e2qsMu6a/5e403548149c1618b64034284f692ff1/icon-ios.svg?w=320&q=70" alt="navjot is hero"/> */}
+          <img src="https://eep.io/images/yzco4xsimv0y/1u3hha7FE0Q402e2qsMu6a/5e403548149c1618b64034284f692ff1/icon-ios.svg?w=320&q=70" alt="navjot is hero"/>
         </Link>
         <Link href="">
-          {/* <img src="https://eep.io/images/yzco4xsimv0y/64EpnI4RsQI66c2y2O60G2/4c34d7bc4dd7a4362c7e19a06c109e21/icon-android.svg?w=320&q=70" alt="navjot is hero"/> */}
+          <img src="https://eep.io/images/yzco4xsimv0y/64EpnI4RsQI66c2y2O60G2/4c34d7bc4dd7a4362c7e19a06c109e21/icon-android.svg?w=320&q=70" alt="navjot is hero"/>
         </Link>
       </div>
       <div className={styles.socialLink}>
         <Link href="/" className={styles.facebookIcon}>
-          {/* <img src="https://eep.io/images/yzco4xsimv0y/5daYAeMRSgIUUiSquGwsgI/1904e3f818575ec9625fa15dab193243/icon-facebook.svg?w=320&q=70" alt="facebook"/> */}
+          <img src="https://eep.io/images/yzco4xsimv0y/5daYAeMRSgIUUiSquGwsgI/1904e3f818575ec9625fa15dab193243/icon-facebook.svg?w=320&q=70" alt="facebook"/>
         </Link>
         <Link href="/" className={styles.twitterIcon}>
-          {/* <img src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?w=320&q=70" alt="twitter"/> */}
+          <img src="https://eep.io/images/yzco4xsimv0y/3VjJhbqftKuok6gqYuUQKy/328d56c5d13ad50b9679b11e716bb218/icon-twitter.svg?w=320&q=70" alt="twitter"/>
         </Link>
         <Link href="/" className={styles.instagramIcon}>
           {/* <img src="https://eep.io/images/yzco4xsimv0y/RlNw7Xkw8uKYAUoYU4aQw/ff3eada8736da9e63fbd9f929c6a677c/icon-instagram.svg?w=320&q=70" alt="instagram"/> */}
         </Link>
         <Link href="/" className={styles.linkedInIcon}>
-          {/* <img src="https://eep.io/images/yzco4xsimv0y/n5saFR4miW4U4ygUIQo0A/8f9c60cb133b80fda2fe9bdb825b4a5f/icon-linkedin.svg?w=320&q=70" alt="linkedIn"/> */}
+          <img src="https://eep.io/images/yzco4xsimv0y/n5saFR4miW4U4ygUIQo0A/8f9c60cb133b80fda2fe9bdb825b4a5f/icon-linkedin.svg?w=320&q=70" alt="linkedIn"/>
         </Link>
         <Link href="/" className={styles.facebookIcon}>
-          {/* <img src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/58e3e8ec04acd60f0642f89dfbd71218/icon-youtube.svg?w=320&q=70" alt="facebook"/> */}
+          <img src="https://eep.io/images/yzco4xsimv0y/2z1ra9BrgQewIqMQckMasg/58e3e8ec04acd60f0642f89dfbd71218/icon-youtube.svg?w=320&q=70" alt="facebook"/>
         </Link>
         <Link href="/" className={styles.pinterestIcon}>
-          {/* <img src="https://eep.io/images/yzco4xsimv0y/7nawBEArBKpxRukK66OZtN/7bcc76998f783f3953b86214bfe9aa43/pinterest-logo.svg?w=320&q=70" alt="pinterest"/> */}
+          <img src="https://eep.io/images/yzco4xsimv0y/7nawBEArBKpxRukK66OZtN/7bcc76998f783f3953b86214bfe9aa43/pinterest-logo.svg?w=320&q=70" alt="pinterest"/>
         </Link>
       </div>
       <div className={styles.trust}>
         <Link href="/">
-          {/* <img src="https://eep.io/images/yzco4xsimv0y/5YvMZrsHz6u8Xl3dbjlPWD/fc92d9d1bba0e3b04409d37654dc6087/EN.svg?w=1600&q=70" alt="trust"/> */}
+          <img src="https://eep.io/images/yzco4xsimv0y/5YvMZrsHz6u8Xl3dbjlPWD/fc92d9d1bba0e3b04409d37654dc6087/EN.svg?w=1600&q=70" alt="trust"/>
         </Link>
       </div>
       <div className={styles.aboutUs}>
