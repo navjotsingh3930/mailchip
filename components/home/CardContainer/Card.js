@@ -13,7 +13,6 @@ return (
         {CardDescription}
         </p>
         <button>{ButtonDesc}</button>
-        <button className="bg-red-800 ">navjot</button>
     </div>
     </div>
 );

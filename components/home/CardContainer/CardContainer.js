@@ -32,6 +32,17 @@ const CardContainer = () => {
             buttonDesc:"Start Syncing"
         },
     ]
+
+    // var let const
+    // var -> g
+    // let -> l
+    // const
+    // for (let index = 0; index < array.length; index++) {
+         
+    // }
+    // while (condition) {
+        
+    // }
 return (
     <div className={styles.cardContainer}>
         {
